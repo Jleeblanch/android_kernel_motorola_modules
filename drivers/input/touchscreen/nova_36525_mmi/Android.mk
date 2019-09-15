@@ -11,4 +11,4 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := nova_36525_mmi.ko
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_PATH := $(NOVA_MMI_MODULE_PATH)
-include $(DLKM_DIR)/AndroidKernelModule.mk
+#include $(DLKM_DIR)/AndroidKernelModule.mk

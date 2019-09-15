@@ -10,4 +10,4 @@ else
 LOCAL_MODULE_PATH := $(KERNEL_MODULES_OUT)
 endif
 
-include $(DLKM_DIR)/AndroidKernelModule.mk
+#include $(DLKM_DIR)/AndroidKernelModule.mk

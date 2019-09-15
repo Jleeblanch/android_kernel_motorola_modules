@@ -16,5 +16,5 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := ets_fps_mmi.ko
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_PATH := $(ETS_FPS_MMI_MODULE_PATH)
-include $(DLKM_DIR)/AndroidKernelModule.mk
+#include $(DLKM_DIR)/AndroidKernelModule.mk
 

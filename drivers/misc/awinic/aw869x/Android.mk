@@ -15,4 +15,4 @@ ifeq ($(PRODUCT_HAS_AWINIC_HAPTIC),true)
 	KERNEL_CFLAGS += CONFIG_INPUT_AWINIC_HAPTIC=y
 endif
 
-include $(DLKM_DIR)/AndroidKernelModule.mk
+#include $(DLKM_DIR)/AndroidKernelModule.mk

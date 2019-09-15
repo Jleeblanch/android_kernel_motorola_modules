@@ -9,4 +9,4 @@ LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/lib/modules/
 else
 LOCAL_MODULE_PATH := $(KERNEL_MODULES_OUT)
 endif
-include $(DLKM_DIR)/AndroidKernelModule.mk
+#include $(DLKM_DIR)/AndroidKernelModule.mk
