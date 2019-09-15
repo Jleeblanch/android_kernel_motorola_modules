@@ -3,8 +3,8 @@
 #
 
 EXTRA_CFLAGS += -Wall
-EXTRA_CFLAGS += -I$(TOP)/motorola/kernel/modules/include
-EXTRA_CFLAGS += -I$(TOP)/motorola/kernel/modules/drivers/input/misc/vl53L1/inc -I$(TOP)/motorola/kernel/modules/drivers/input/misc/vl53L1/ipp -I$(TOP)/motorola/kernel/modules/drivers/input/misc/vl53L1
+EXTRA_CFLAGS += -I$(TOP)/kernel/motorola/modules/include
+EXTRA_CFLAGS += -I$(TOP)/kernel/motorola/modules/drivers/input/misc/vl53L1/inc -I$(TOP)/kernel/motorola/modules/drivers/input/misc/vl53L1/ipp -I$(TOP)/kernel/motorola/modules/drivers/input/misc/vl53L1
 
 # define this environment variable if you want to compile driver for an old
 # kernel

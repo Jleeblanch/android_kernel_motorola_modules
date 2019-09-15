@@ -1,4 +1,4 @@
-DLKM_DIR := motorola/kernel/modules
+DLKM_DIR := kernel/motorola/modules
 LOCAL_PATH := $(call my-dir)
 
 ifeq ($(DLKM_INSTALL_TO_VENDOR_OUT),true)

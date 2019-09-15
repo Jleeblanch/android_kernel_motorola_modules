@@ -1,6 +1,6 @@
 # add -Wall to try to catch everything we can.
 EXTRA_CFLAGS += -Wall
-EXTRA_CFLAGS += -I$(TOP)/motorola/kernel/modules/include -I$(TOP)/motorola/kernel/modules/drivers/input/misc
+EXTRA_CFLAGS += -I$(TOP)/kernel/motorola/modules/include -I$(TOP)/kernel/motorola/modules/drivers/input/misc
 
 ldc2114_keys-objs := ldc2114.o
 

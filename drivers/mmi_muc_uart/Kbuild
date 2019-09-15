@@ -1,6 +1,6 @@
 # add -Wall to try to catch everything we can.
 EXTRA_CFLAGS += -Wall
-EXTRA_CFLAGS += -I$(TOP)/motorola/kernel/modules/include
+EXTRA_CFLAGS += -I$(TOP)/kernel/motorola/modules/include
 
 mmi_muc_uart-objs += mmi_uart.o
 mmi_muc_uart-objs += mmi_char.o
